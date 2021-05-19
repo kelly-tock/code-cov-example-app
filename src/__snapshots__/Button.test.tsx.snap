@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders learn react link 1`] = `[Function]`;
+exports[`matches default snap 1`] = `[Function]`;
+
+exports[`renders a start icon 1`] = `[Function]`;
