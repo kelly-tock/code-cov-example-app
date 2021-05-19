@@ -31,6 +31,8 @@ function App() {
         </ol>
         <p>
           <Button>Default</Button>
+          <Button variant="primary">Primary</Button>
+          <Button variant="secondary">Secondary</Button>
         </p>
       </main>
     </div>
