@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/kelly-tock/code-cov-example-app/branch/main/graph/badge.svg?token=3kKlXrqU07)](https://codecov.io/gh/kelly-tock/code-cov-example-app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
