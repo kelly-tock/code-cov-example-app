@@ -6,6 +6,7 @@ interface ButtonProps {
   variant?: "primary" | "secondary";
   size?: "small" | "medium" | "large";
   startIcon?: React.ReactNode;
+  endIcon?: React.ReactNode;
 }
 
 export const Button: FunctionComponent<ButtonProps> = ({
@@ -13,6 +14,7 @@ export const Button: FunctionComponent<ButtonProps> = ({
   size = "medium",
   children,
   startIcon,
+  endIcon,
 }) => {
   return (
     <button
@@ -23,6 +25,7 @@ export const Button: FunctionComponent<ButtonProps> = ({
     >
       {startIcon && <span className="Button--startIcon">{startIcon}</span>}
       {children}
+      {endIcon && <span className="Button--endIcon">{endIcon}</span>}
     </button>
   );
 };
