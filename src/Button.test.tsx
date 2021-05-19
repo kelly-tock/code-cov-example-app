@@ -3,13 +3,20 @@ import { render, screen } from "@testing-library/react";
 import { Button } from "./Button";
 
 test("matches default snap", () => {
-  const { asFragment } = render(<Button>test default button</Button>);
-  expect(asFragment).toMatchSnapshot();
+  const { container } = render(<Button>test default button</Button>);
+  expect(container.firstChild).toMatchSnapshot();
 });
 
 test("renders a start icon", () => {
-  const { asFragment } = render(
+  const { container } = render(
     <Button startIcon={<>&lozenge;</>}>test default button</Button>
   );
-  expect(asFragment).toMatchSnapshot();
+  expect(container.firstChild).toMatchSnapshot();
+});
+
+test("renders an end icon", () => {
+  const { container } = render(
+    <Button endIcon={<>&loang;</>}>test default button</Button>
+  );
+  expect(container.firstChild).toMatchSnapshot();
 });
