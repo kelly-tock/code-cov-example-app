@@ -29,9 +29,9 @@ function App() {
           <li>Write a test for the component you added and update the PR</li>
           <li>See the affect on code coverage</li>
         </ol>
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>
+          <Button>Default</Button>
+        </p>
       </main>
     </div>
   );
