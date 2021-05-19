@@ -29,15 +29,9 @@ function App() {
           <li>Write a test for the component you added and update the PR</li>
           <li>See the affect on code coverage</li>
         </ol>
-        <p>
-          <Button>Default</Button>
-        </p>
-        <p>
-          <Button variant="primary">Primary</Button>
-        </p>
-        <p>
-          <Button variant="secondary">Secondary</Button>
-        </p>
+        <p></p>
+        <p></p>
+        <p></p>
       </main>
     </div>
   );
