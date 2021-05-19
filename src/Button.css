@@ -12,6 +12,14 @@
   border-color: rgba(250, 128, 114, 0.6);
 }
 
+.Button--small {
+  padding: 4px 9px;
+}
+
+.Button--large {
+  padding: 8px 15px;
+}
+
 .Button--primary {
   border: 1px solid rgb(134, 114, 250);
   background-color: white;
