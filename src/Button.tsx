@@ -5,12 +5,14 @@ import "./Button.css";
 interface ButtonProps {
   variant?: "primary" | "secondary";
   size?: "small" | "medium" | "large";
+  startIcon?: React.ReactNode;
 }
 
 export const Button: FunctionComponent<ButtonProps> = ({
   variant,
   size = "medium",
   children,
+  startIcon,
 }) => {
   return (
     <button
@@ -19,6 +21,7 @@ export const Button: FunctionComponent<ButtonProps> = ({
         [`Button--${size}`]: size,
       })}
     >
+      {startIcon && <span className="Button--startIcon">{startIcon}</span>}
       {children}
     </button>
   );

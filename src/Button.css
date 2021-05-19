@@ -1,6 +1,8 @@
 .Button {
+  align-items: center;
   border-radius: 20px;
   color: black;
+  display: inline-flex;
   padding: 6px 12px;
   border: 1px solid rgb(250, 128, 114);
   background-color: white;
@@ -38,4 +40,8 @@
 .Button--secondary:hover {
   background-color: rgba(121, 121, 121, 0.6);
   border-color: rgba(121, 121, 121, 0.6);
+}
+
+.Button--startIcon {
+  margin-right: 4px;
 }
