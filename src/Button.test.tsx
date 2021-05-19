@@ -13,3 +13,10 @@ test("renders a start icon", () => {
   );
   expect(asFragment).toMatchSnapshot();
 });
+
+test("renders an end icon", () => {
+  const { asFragment } = render(
+    <Button endIcon={<>&loang;</>}>test default button</Button>
+  );
+  expect(asFragment).toMatchSnapshot();
+});

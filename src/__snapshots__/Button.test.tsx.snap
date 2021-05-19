@@ -3,3 +3,5 @@
 exports[`matches default snap 1`] = `[Function]`;
 
 exports[`renders a start icon 1`] = `[Function]`;
+
+exports[`renders an end icon 1`] = `[Function]`;
