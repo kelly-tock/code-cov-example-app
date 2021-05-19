@@ -1,0 +1,33 @@
+.Button {
+  border-radius: 20px;
+  color: black;
+  padding: 6px 12px;
+  border: 1px solid rgb(250, 128, 114);
+  background-color: white;
+  transition: border, background-color 0.3s ease-in-out;
+}
+
+.Button:hover {
+  background-color: rgba(250, 128, 114, 0.6);
+  border-color: rgba(250, 128, 114, 0.6);
+}
+
+.Button--primary {
+  border: 1px solid rgb(134, 114, 250);
+  background-color: white;
+}
+
+.Button--primary:hover {
+  background-color: rgba(134, 114, 250, 0.6);
+  border-color: rgba(134, 114, 250, 0.6);
+}
+
+.Button--secondary {
+  border: 1px solid rgb(121, 121, 121);
+  background-color: white;
+}
+
+.Button--secondary:hover {
+  background-color: rgba(121, 121, 121, 0.6);
+  border-color: rgba(121, 121, 121, 0.6);
+}
