@@ -4,15 +4,20 @@ import "./Button.css";
 
 interface ButtonProps {
   variant?: "primary" | "secondary";
+  size?: "small" | "medium" | "large";
 }
 
 export const Button: FunctionComponent<ButtonProps> = ({
   variant,
+  size = "medium",
   children,
 }) => {
   return (
     <button
-      className={clsx("Button", variant ? `Button--${variant}` : undefined)}
+      className={clsx("Button", {
+        [`Button--${variant}`]: variant,
+        [`Button--${size}`]: size,
+      })}
     >
       {children}
     </button>

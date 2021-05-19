@@ -31,12 +31,10 @@ function App() {
         </ol>
         <p>
           <Button>Default</Button>
-        </p>
-        <p>
           <Button variant="primary">Primary</Button>
-        </p>
-        <p>
           <Button variant="secondary">Secondary</Button>
+          <Button size="large">Large</Button>
+          <Button size="small">Small</Button>
         </p>
       </main>
     </div>
