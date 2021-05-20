@@ -7,3 +7,11 @@ exports[`matches default snap 1`] = `
   test default button
 </div>
 `;
+
+exports[`matches default snap outlined 1`] = `
+<div
+  class="Card Card--outlined"
+>
+  test default button
+</div>
+`;
