@@ -7,7 +7,7 @@ interface CardTitleProps {
   subtitle?: string;
 }
 
-export const Card: FunctionComponent<CardTitleProps> = ({
+export const CardTitle: FunctionComponent<CardTitleProps> = ({
   title,
   subtitle,
 }) => {
