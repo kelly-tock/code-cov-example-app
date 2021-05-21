@@ -4,7 +4,7 @@ exports[`matches default snap 1`] = `
 <div
   class="Card"
 >
-  test default button
+  test default card
 </div>
 `;
 
@@ -12,6 +12,14 @@ exports[`matches default snap outlined 1`] = `
 <div
   class="Card Card--outlined"
 >
-  test default button
+  test outlined card
+</div>
+`;
+
+exports[`matches snap with a card title 1`] = `
+<div
+  class="Card Card--outlined"
+>
+  test card with card title
 </div>
 `;
